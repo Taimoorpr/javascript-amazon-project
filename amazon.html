@@ -2,8 +2,8 @@
 <html>
 
 <head>
-    <title>Amazon Project</title>
-
+    <title>Amazon.com</title>
+    <link rel="icon" href="images/amazon-mobile-logo.png" type="image/x-icon">
     <!-- This code is needed for responsive design to work.
       (Responsive design = make the website look good on
       smaller screen sizes like a phone or a tablet). -->
@@ -52,9 +52,11 @@
     </div>
 
     <div class="main">
-        <div class="products-grid js-products-grid"></div>
+        <div class="products-grid js-products-grid">
+            <!-- The products will be dynamicliy be created using javascript -->
+        </div>
     </div>
-
+    <script src="data/cart.js"></script>
     <script src="data/products.js"></script>
     <script src="scripts/amazon.js"></script>
 </body>
