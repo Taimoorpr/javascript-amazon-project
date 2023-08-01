@@ -2,12 +2,6 @@
     margin-top: 60px;
 }
 
-body {
-    color: white;
-    background-color: rgb(19, 25, 33);
-    ;
-}
-
 .products-grid {
     display: grid;
     /* - In CSS Grid, 1fr means a column will take up the
